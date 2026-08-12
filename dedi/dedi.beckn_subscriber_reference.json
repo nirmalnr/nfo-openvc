@@ -35,11 +35,35 @@
         "url": "https://np2.openvc.global/dedi/beckn_subscriber",
         "type": "Registry"
       }
+    },
+    {
+      "record_name": "beckn-mobility-ref",
+      "details": {
+        "subscriber_id": "beckn-mobility-network.example",
+        "url": "https://api.dedi.global/dedi/lookup/beckn-mobility-network.example/beckn_subscriber",
+        "type": "Registry"
+      }
+    },
+    {
+      "record_name": "dhiway-13may-ref",
+      "details": {
+        "subscriber_id": "13may.dhiway.net",
+        "url": "https://dev.dedi.global/dedi/lookup/13may.dhiway.net/beckn-subs",
+        "type": "Registry"
+      }
+    },
+    {
+      "record_name": "non-conforming-ref",
+      "details": {
+        "subscriber_id": "unknown-format.example",
+        "url": "https://registry.example.net/api/v1/beckn_subscriber/lookup/unknown-format.example",
+        "type": "Registry"
+      }
     }
   ],
   "proof": {
     "verification_method": "nfo-key-1",
     "canonicalization": "JCS",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nM9GOJ1W2scUgxyv-vwtQrKeEfQtnsP4EVg6BqQKS2pnwsV9ZS-1h8kXZXXMI81E6SbNDK_jKdTZhaw4dDIuCQ"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZGkFUuwi_dFNtv92nKwZ5o6-nFqo7A6MkMeLpuYjNQ1Z1MoqJN23SMVbIYOrIyGRXdh4oQ-l4bORHprn9faeDg"
   }
 }
