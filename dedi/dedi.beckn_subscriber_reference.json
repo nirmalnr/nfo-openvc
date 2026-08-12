@@ -59,11 +59,19 @@
         "url": "https://registry.example.net/api/v1/beckn_subscriber/lookup/unknown-format.example",
         "type": "Registry"
       }
+    },
+    {
+      "record_name": "np3-ref",
+      "details": {
+        "subscriber_id": "np3.openvc.global",
+        "url": "https://api.dedi.global/dedi/lookup/np3.openvc.global/beckn_subscriber",
+        "type": "Registry"
+      }
     }
   ],
   "proof": {
     "verification_method": "nfo-key-1",
     "canonicalization": "JCS",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZGkFUuwi_dFNtv92nKwZ5o6-nFqo7A6MkMeLpuYjNQ1Z1MoqJN23SMVbIYOrIyGRXdh4oQ-l4bORHprn9faeDg"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..onHSYjlfcalfujafaIbpoFUrF7va6SppU26ttf3QxUzjzdKDu4EpRw5b45LL59PjrHWv7uxLMm_NY8HAoQ4sCA"
   }
 }

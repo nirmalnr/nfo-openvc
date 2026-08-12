@@ -17,12 +17,12 @@
     {
       "registry": "beckn_subscriber_reference",
       "url": "https://nfo.openvc.global/dedi/dedi.beckn_subscriber_reference.json",
-      "digest": "sha-256:5a01632378ebb4d7ccbfa596fd628496ec54886e1804cf6dcff1d0b3188346d2"
+      "digest": "sha-256:f2eff7a9b74a805bf91e7c5028a1e3efb973ecb271ad838e33d64b6e7538ced6"
     }
   ],
   "proof": {
     "verification_method": "nfo-key-1",
     "canonicalization": "JCS",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0kpHK7AVBabUwvyKWaM1W6QDA2gtO9hZJO2gRlKKpvnNmcq4wrHOeyYXvJKT8OhwJzZ8fiGfzs9T1RgRizl2Dw"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bPaAhIpHhLAQ3LI7bOv3ulXk__fze0UeiF5S0FZwud6lrm1-iuvdzfq_RnHXd-6_X4k3Bb0Ct-Q-HAyZfP7GCA"
   }
 }
