@@ -1,0 +1,45 @@
+{
+  "dedi_version": "0.1",
+  "type": "dedi-file",
+  "source_url": "https://nfo.openvc.global/dedi/dedi.beckn_subscriber_reference.json",
+  "next_update": "2031-08-12T00:00:00Z",
+  "publisher": {
+    "domain": "nfo.openvc.global",
+    "key": {
+      "kid": "nfo-key-1",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "ROowkeKY9XoEWHvB7UVCOg6f1yWwHnEFQ1_RgOq8MD4"
+    }
+  },
+  "namespace": "nfo.openvc.global",
+  "registry": {
+    "name": "beckn_subscriber_reference",
+    "schema": "https://raw.githubusercontent.com/LF-Decentralized-Trust-labs/decentralized-directory-protocol/main/schemas/beckn_subscriber_reference.json",
+    "state": "live",
+    "updated_at": "2026-08-12T00:00:00Z"
+  },
+  "records": [
+    {
+      "record_name": "np1-ref",
+      "details": {
+        "subscriber_id": "np1.openvc.global",
+        "url": "https://api.dedi.global/dedi/lookup/np1.openvc.global/beckn_subscriber",
+        "type": "Registry"
+      }
+    },
+    {
+      "record_name": "np2-ref",
+      "details": {
+        "subscriber_id": "np2.openvc.global",
+        "url": "https://np2.openvc.global/dedi/beckn_subscriber",
+        "type": "Registry"
+      }
+    }
+  ],
+  "proof": {
+    "verification_method": "nfo-key-1",
+    "canonicalization": "JCS",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nM9GOJ1W2scUgxyv-vwtQrKeEfQtnsP4EVg6BqQKS2pnwsV9ZS-1h8kXZXXMI81E6SbNDK_jKdTZhaw4dDIuCQ"
+  }
+}

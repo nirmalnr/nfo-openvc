@@ -1,0 +1,28 @@
+{
+  "type": "dedi-manifest",
+  "dedi_version": "0.1",
+  "domain": "nfo.openvc.global",
+  "name": "NFO (OpenVC network facilitator test fixture)",
+  "keys": [
+    {
+      "kid": "nfo-key-1",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "ROowkeKY9XoEWHvB7UVCOg6f1yWwHnEFQ1_RgOq8MD4"
+    }
+  ],
+  "updated_at": "2026-08-12T00:00:00Z",
+  "next_update": "2031-08-12T00:00:00Z",
+  "files": [
+    {
+      "registry": "beckn_subscriber_reference",
+      "url": "https://nfo.openvc.global/dedi/dedi.beckn_subscriber_reference.json",
+      "digest": "sha-256:d84d8e3b95189a47c2ac8e4ac720830acd375df8225701b0309cb1cc3557c26a"
+    }
+  ],
+  "proof": {
+    "verification_method": "nfo-key-1",
+    "canonicalization": "JCS",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NmXsdHAz1HNOYg7atcpwwLZbE9TdX917lvOpyv_-SBLv2xSPycQ2w9U6aDht12DBJ9htaBqgjm2imTEZ9ICdBw"
+  }
+}
